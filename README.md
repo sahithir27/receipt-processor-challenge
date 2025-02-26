@@ -55,3 +55,5 @@ curl -X POST http://localhost:<PORT>/receipts/process \
 curl -X GET http://localhost:<PORT>/receipts/{id}/points
 ```
 Replace PORT with **PORT** and **`{id}`** with the **UUID** returned from the **POST** request.
+
+Flag **isLLMGenerated** is set to false in app.js, Change it to true in app.js to verify
