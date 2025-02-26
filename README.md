@@ -17,7 +17,9 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone git@github.com:sahithir27/receipt-processor-challenge.git
+git clone <repository_url>
+```
+```bash
 cd RECEIPT-PROCESSOR-CHALLENGE
 ```
 
@@ -52,4 +54,4 @@ curl -X POST http://localhost:<PORT>/receipts/process \
 ```bash
 curl -X GET http://localhost:<PORT>/receipts/{id}/points
 ```
-Replace <PORT> with **PORT** and **`{id}`** with the **UUID** returned from the **POST** request.
+Replace PORT with **PORT** and **`{id}`** with the **UUID** returned from the **POST** request.
